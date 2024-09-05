@@ -1,0 +1,188 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Will Morrison",
+    "label": "Software Developer",
+    "email": "will@willmorrison.com",
+    "phone": "(609) 865-4384",
+    "location": {
+      "address": "4 Hawthorne Ave, Princeton NJ"
+    },
+    "summary": "Computer Science senior at Boston College with a minor in Management & Leadership. Graduating in May 2025 with a strong foundation in software development. Proficient in multiple programming languages and frameworks. Seeking a software engineering role to leverage my knowledge and project experience.",
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "will-morrison",
+        "url": "https://www.linkedin.com/in/will-morrison/"
+      },
+      {
+        "network": "GitHub",
+        "username": "MorrisonWill",
+        "url": "https://github.com/MorrisonWill"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "BoreDM",
+      "location": "Phoenix, AZ / Remote",
+      "description": "Geotechnical engineering software",
+      "position": "Software Engineer",
+      "url": "https://boredmlogs.com",
+      "startDate": "2024-05-20",
+      "summary": "BoreDM is \"the modern standard for geotechnical and environmental subsurface data management.\"",
+      "highlights": [
+        "Led the development and integration of SAML-based single sign-on (SSO) for BoreDM's web application",
+        "Developed a number of features that are now in use by BoreDM's customers, including laboratory tests, optimizations to the websocket system, and improvements to an LLM-based analysis module",
+        "Contract extended so that I could continue to work while I finish my degree"
+      ]
+    },
+    {
+      "name": "Boston College",
+      "url": "https://www.bc.edu/",
+      "location": "Boston, MA",
+      "position": "Teaching and Research Assistant",
+      "startDate": "2022-01-01",
+      "summary": "Worked as a research assistant for two professors and as a teaching assistant for three computer science courses.",
+      "highlights": [
+        "Developed an Electron UI for ND2 image file transformations under Professor Donglai Wei",
+        "Developed and benchmarked distributed systems under Professor Lewis Tseng",
+        "Served as a Teaching Assistant for CS 2, Computer Systems, and Computer Networks for a total of 4 semesters",
+        "Led the development of a VR data visualization project under Professor Nam Wook Kim"
+      ]
+    },
+    {
+      "name": "EigenX",
+      "url": "https://www.eigenx.com/",
+      "location": "King of Prussia, PA",
+      "position": "Software Development Intern",
+      "startDate": "2022-06-01",
+      "endDate": "2024-01-01",
+      "summary": "Worked directly with clients, designing and writing software to fit their needs.",
+      "highlights": [
+        "Collaborated with clients to understand and fulfill their software requirements",
+        "Designed and developed custom software solutions",
+        "Wrote applications with a variety of technologies including PostgreSQL, TypeScript, Salesforce, Python, Git, and Linux"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Julia Robinson Math Festival",
+      "position": "Volunteer",
+      "url": "https://jrmf.org/",
+      "startDate": "2020-05-01",
+      "endDate": "2020-08-01",
+      "summary": "Created interactive, educational math games in Unity."
+    },
+    {
+      "organization": "The Seeing Eye",
+      "position": "Puppy Raiser",
+      "url": "https://seeingeye.org/",
+      "startDate": "2017-06-01",
+      "endDate": "2019-09-01",
+      "summary": "Trained and socialized puppies to become guide dogs for the blind."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Boston College",
+      "url": "https://www.bc.edu/",
+      "area": "Computer Science & Management",
+      "studyType": "Bachelor",
+      "startDate": "2021-08-01",
+      "endDate": "2025-05-01",
+      "courses": [
+        "491102 - Independent Study",
+        "338901 - Topics in Computer Systems: Blockchain and Consensus Systems",
+        "336601 - Principles of Programming Languages",
+        "336301 - Computer Networks",
+        "336201 - Operating Systems",
+        "336001 - Human-AI Interaction",
+        "336701 - Compilers",
+        "227201 - Computer Organization and Lab",
+        "227101 - Computer Systems",
+        "224401 - Randomness and Computation",
+        "224303 - Logic and Computation",
+        "210301 - Functional Programming"
+      ]
+    },
+    {
+      "institution": "Princeton High School",
+      "url": "https://www.princetonk12.org/phs",
+      "startDate": "2017-09-01",
+      "endDate": "2021-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Experienced",
+      "keywords": ["HTML", "CSS", "Typescript", "React", "Svelte"]
+    },
+    {
+      "name": "Backend",
+      "level": "Experienced",
+      "keywords": ["Node.js", "Python", "PostgreSQL", "Golang"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rock Climbing",
+      "keywords": ["Bouldering", "Sport", "Traditional"]
+    },
+    {
+      "name": "Chess"
+    },
+    {
+      "name": "Tennis"
+    },
+    {
+      "name": "Skiing"
+    },
+    {
+      "name": "Cryptocurrency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Auger",
+      "description": "An open-source TCP forwarding tool written in Go",
+      "highlights": [
+        "Forwards local TCP traffic to a remote server",
+        "Runs as both a CLI app and on a server",
+        "Alternative to tools like ngrok"
+      ],
+      "keywords": ["Go", "TCP", "Networking", "Open Source"],
+      "url": "https://github.com/MorrisonWill/auger",
+      "type": "Application"
+    },
+    {
+      "name": "Paymint",
+      "description": "A cryptocurrency payment-processing API",
+      "highlights": ["Processes 6 different cryptocurrencies", "Simple API"],
+      "keywords": ["Cryptocurrency", "Typescript", "Deno", "API", "PostgreSQL"],
+      "startDate": "2022-02-01",
+      "endDate": "2023-02-01",
+      "url": "http://paymint.com",
+      "type": "API"
+    },
+    {
+      "name": "Eagle Monitor",
+      "description": "A web application for monitoring the status of Boston College's course registration system",
+      "highlights": [
+        "Written in Golang and Svelte",
+        "Notifies users when a course they want to take has an open seat",
+        "Better search functionality than the official BC course registration system"
+      ],
+      "keywords": ["Golang", "Svelte", "Go-Chi", "PostgreSQL"],
+      "url": "https://github.com/MorrisonWill/EagleMonitor/tree/master"
+    }
+  ],
+  "meta": {
+    "theme": "jsonresume-theme-even",
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

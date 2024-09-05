@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "resumed init",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsonresume-theme-even": "^0.22.1",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^23.3.0",
+    "resumed": "^4.0.0"
+  }
+}
